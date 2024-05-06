@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* navbar  */
+
+.nav-span{
+  position: relative;
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+.navbar-brand{
+  padding-left: -17px;
+}
+
+/* home  */
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: .1;
+  width: 49%;
+  background: #3e64ff;
+}
+.slider-text .subheading {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: #3e64ff;
+  letter-spacing: 4px;
+}
+.slider-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.slider-text h2 {
+  font-weight: 800;
+}
+.slider-text h2 span {
+  text-decoration: underline;
+}
+.content{
+  padding-top: 170px;
+}
+
+/* about  */
+
+.abt-img{
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 520px;
+}
+.abt-content{
+  margin: 220px 0 20px 0;
+}
+.heading1{
+  font-size: 47px;
+  font-weight: 700;
+}
+.about-info{
+  font-size: 16px;
+}
+.heading2{
+  margin-left: 67px;
+}
+.hdg1{
+  margin-left: 44px;
+}
+.hdg2{
+  margin-left: 69px;
+}
+.hdg3{
+  margin-left: 60px;
+}
+
+/* resume  */
+
+.progress-skill{
+  height: 120px;
+}
+.skill-progress,.skill-progress2,.skill-progress3{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 7px solid skyblue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.skill-progress2{
+  border-top-color: #edf0ff;
+}
+.skill-progress3{
+  border-top-color: #edf0ff;
+  border-left-color: #edf0ff;
+}
+.skill-line{
+  font-size: 70px;
+  color: rgb(223, 221, 221);
+}
+
+/* services  */
+
+.icon{
+  font-size: 60px;
+}
+.s-line{
+  margin-left: 100px;
+}
+.box1:hover{
+  background-color: #95aafe;
+  color: white;
+}
+.icon{
+  color: skyblue;
+}
+
+/* projects  */
+
+.project{
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+.overlay2{
+  position: absolute;
+  z-index: 1;
+  display: none;
+  background-color: rgb(121, 205, 241);
+  color: white;
+  height: 267px;
+  width: 397px;
+}
+.project:hover .overlay2{
+  display: block;
+}
+
+/* blogs  */
+
+.b-content{
+  letter-spacing: 0.5px;
+}
+.card-text:hover{
+  color: skyblue;
+  transition: 0.5s;
+}
+.card-img-top{
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+
+/* contact  */
+
+.box2,.box3,.box4{
+  padding: 30px 35px 41px 30px;
+}
+.form-control{
+  height: 57px !important;
+  background: #fff !important;
+}
+.form-group textarea{
+  height: 108px !important;
+}
+.contact{
+  width: 100%;
+  height: 200px;
+}
