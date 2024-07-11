@@ -88,10 +88,13 @@ const Contact = () => {
                   <input type="text" className="form-control mb-4" placeholder="Your Email" />
                 </div>
                 <div className="form-group">
-                  <input type="text" className="form-control mb-4" placeholder="Subject" />
+                  <input type="text" className="form-control mb-4" placeholder="Contact Nuber" />
                 </div>
                 <div className="form-group">
-                  <textarea name="" id="" cols="30" rows="10" className="form-control mb-4" placeholder="Message"></textarea>
+                  <input type="text" className="form-control mb-4" placeholder="topic" />
+                </div>
+                <div className="form-group">
+                  <textarea name="" id="" cols="30" rows="5" className="form-control mb-4" placeholder="Message"></textarea>
                 </div>
                 <div className="form-group">
                   <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5 mb-4" />
